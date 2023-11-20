@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: yellow;
+}
+
+.student-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-table th, .student-table td {
+  border: 3px solid #dadf7d;
+  padding: 8px;
+  text-align: center;
+}
+
+.student-table th {
+  background-color: red;
+}
